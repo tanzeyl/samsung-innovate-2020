@@ -78,3 +78,14 @@ label img {
 .Caption {
   color: rgba(1, 6, 41);
 }
+
+.FormSubmit {
+  background-color: rgba(191, 64, 191);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Comfortaa";
+  color: white;
+  padding: 10px;
+  border: transparent;
+  border-radius: 5px;
+}
