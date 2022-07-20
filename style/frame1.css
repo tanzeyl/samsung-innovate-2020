@@ -37,6 +37,12 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.Buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
 .JoinButton {
   -webkit-border-radius: 3;
   -moz-border-radius: 3;
@@ -48,13 +54,6 @@
   padding: 10px 20px 10px 20px;
   border: solid #000000 2px;
   text-decoration: none;
-  margin-right: 2%;
-}
-
-.Buttons {
-  display: flex;
-  justify-content: center;
-  margin-top: 1%;
 }
 
 .AboutButton {
@@ -68,4 +67,8 @@
   padding: 10px 20px 10px 20px;
   border: solid #000000 2px;
   text-decoration: none;
+}
+
+.MainFooter {
+  margin-bottom: 2%;
 }
