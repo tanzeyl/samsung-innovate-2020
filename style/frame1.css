@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+}
+
+.MainSection {
+  background-image: url("../img/frame1-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.MainText {
+  padding-top: 20%;
+  font-family: "Sakkal Majalla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.MainIcon {
+  color: #6200ee;
+  margin-top: 15%;
+  font-size: 3sa0px;
+}
+
+.MainTitle {
+  margin-top: 2%;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 54px;
+  letter-spacing: -0.015em;
+  text-decoration-line: underline;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.JoinButton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: "Roboto";
+  color: #000000;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+  margin-right: 2%;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.AboutButton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 20px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
