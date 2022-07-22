@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+.Logo {
+  margin-top: 3%;
+}
+
 .MainSection {
   background-image: url("../img/frame1-bg.jpg");
   background-position: center center;
@@ -11,7 +15,7 @@
 }
 
 .MainText {
-  padding-top: 20%;
+  padding-top: 10%;
   font-family: Helvetica;
   font-style: normal;
   font-weight: 400;
@@ -45,20 +49,7 @@
   margin-top: 2%;
 }
 
-.JoinButton {
-  -webkit-border-radius: 3;
-  -moz-border-radius: 3;
-  border-radius: 3px;
-  font-family: "Roboto";
-  color: #000000;
-  font-size: 20px;
-  background: #ffffff;
-  padding: 10px 20px 10px 20px;
-  border: solid #000000 2px;
-  text-decoration: none;
-}
-
-.AboutButton {
+.Button {
   -webkit-border-radius: 3;
   -moz-border-radius: 3;
   border-radius: 3px;
@@ -85,4 +76,25 @@
   .MainHearts {
     padding-top: 0;
   }
+}
+
+button {
+  position: relative;
+  border: none;
+  transition: 0.4s ease-in;
+  z-index: 1;
+}
+
+button::before,
+button::after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+}
+
+.btn-3:hover {
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #ffffff,
+    0 0 200px #ffffff;
 }

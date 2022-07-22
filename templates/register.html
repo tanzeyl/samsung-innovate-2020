@@ -1,83 +1,109 @@
 <html>
   <head>
-    <link rel="stylesheet" href="style/frame1.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../style/register.css" />
-    <title>Login</title>
     <script
       src="https://kit.fontawesome.com/84b8f6b0f3.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    ></script>
+    <link rel="stylesheet" href="../style/register.css" />
+    <link rel="stylesheet" href="../style/nav.css" />
+    <title>Login</title>
   </head>
   <body>
-    <section class="LoginSection col-xs-12 col-md-12">
-      <p><center class="LoginHeader">Login</center></p>
-      <div class="LoginWarning">
-        By signing in, you are agreeing to our
-        <p class="LoginTerms">Terms and Privacy policy.</p>
-      </div>
-      <div>
-        <div class="LoginLinks">
-          <p class="LoginLink">Login</p>
-          <p class="RegisterLink">Register</p>
+    <nav>
+      <ul class="menu">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="register.html">Login</a></li>
+      </ul>
+    </nav>
+      <section class="LoginSection">
+        <div class="row">
+          <div class="col-xs-12">
+            <p><center class="LoginHeader">Login</center></p>
+          </div>
         </div>
-        <div>
-          <form action="/index.html" class="LoginForm">
-            <div class="info">
-              <input
-                class="mainLoginInput"
-                type="text"
-                name="email"
-                placeholder="&#61447;   Email"
-              />
-              <input
-                class="mainLoginInput"
-                type="password"
-                name="password"
-                placeholder="&#61475;    Password"
-              />
-            </div>
-            <div class="checkbox">
-              <div class="row">
-                <div class="col-xs-12 col-lg-6">
-                  <input type="checkbox" name="remember" />
-                  <span>Remember password?</span>
-                </div>
-                <div class="col-xs-12 col-lg-offset-6 col-lg-6 ForgotPass">
-                  Forgot password?
-                </div>
-              </div>
-            </div>
-            <input type="submit" value="Login" />
-          </form>
-        </div>
-        <div class="ConnectionOptions">
-          <center class="OptionHeader">or connect with</center>
-          <div class="wrapper">
-            <div class="icon google">
-              <div class="tooltip">Google</div>
-              <span><i class="fab fa-google"></i></span>
-            </div>
-            <div class="icon facebook">
-              <div class="tooltip">Facebook</div>
-              <span><i class="fab fa-facebook"></i></span>
-            </div>
-            <div class="icon pinterest">
-              <div class="tooltip">Pinterest</div>
-              <span><i class="fab fa-pinterest"></i></span>
+        <div class="row">
+          <div class="col-xs-12 col-lg-6 col-lg-offset-3">
+            <div class="LoginWarning">
+              By signing in, you are agreeing to our
+              <p class="LoginTerms">Terms and Privacy policy.</p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="LoginLinks">
+              <p class="LoginLink">Login</p>
+              <p class="RegisterLink">Register</p>
+            </div>
+          </div>
+          <div>
+            <form action="/index.html" class="LoginForm">
+              <div class="info col-xs-12 col-lg-6 col-lg-offset-3">
+                <input
+                  class="mainLoginInput"
+                  type="text"
+                  name="email"
+                  placeholder="&#61447;   Email"
+                />
+                <input
+                  class="mainLoginInput"
+                  type="password"
+                  name="password"
+                  placeholder="&#61475;    Password"
+                />
+                <input type="submit" value="Login" />
+              </div>
+
+              <div class="checkbox">
+                <div class="row">
+                  <div class="col-xs-offset-3 col-xs-4 col-lg-3">
+                    <input type="checkbox" name="remember" />
+                    <span>Remember password?</span>
+                  </div>
+                  <div class="col-xs-3 col-lg-3 ForgotPass">
+                    Forgot password?
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="ConnectionOptions">
+            <center class="OptionHeader">or connect with</center>
+            <div class="wrapper">
+              <div class="icon google">
+                <div class="tooltip">Google</div>
+                <span><i class="fab fa-google"></i></span>
+              </div>
+              <div class="icon facebook">
+                <div class="tooltip">Facebook</div>
+                <span><i class="fab fa-facebook"></i></span>
+              </div>
+              <div class="icon pinterest">
+                <div class="tooltip">Pinterest</div>
+                <span><i class="fab fa-pinterest"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>

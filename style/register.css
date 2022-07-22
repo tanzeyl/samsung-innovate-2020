@@ -1,25 +1,26 @@
-@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+* {
+  margin: 5px;
+}
 
 .LoginSection {
   margin-top: 4%;
 }
 
 .LoginHeader {
-  font-family: "Sakkal Majalla";
+  font-family: Helvetica;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  line-height: 56px;
+  line-height: 10%;
   text-align: center;
   color: #000000;
 }
 
 .LoginWarning {
-  font-family: "Sakkal Majalla";
+  font-family: Helvetica;
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 2em;
   text-align: center;
   color: #6b5e5e;
 }
@@ -58,8 +59,7 @@
   flex-direction: column;
 }
 
-input,
-select {
+input {
   padding: 5px;
   margin-bottom: 30px;
   background: transparent;
@@ -74,7 +74,7 @@ select {
 }
 
 .checkbox {
-  margin-top: 5%;
+  font-size: 20px;
 }
 
 .checkbox input {
@@ -84,7 +84,6 @@ select {
 }
 
 .LoginForm {
-  padding: 0 35%;
   font-family: "Helvetica";
 }
 
@@ -120,6 +119,8 @@ input[type="submit"] {
   left: 0px;
   top: 0px;
   font-size: 20px;
+  margin-top: 2%;
+  border-radius: 5px;
 }
 
 .OptionHeader {
@@ -131,6 +132,7 @@ input[type="submit"] {
   display: flex;
   justify-content: center;
   margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .wrapper .icon {
