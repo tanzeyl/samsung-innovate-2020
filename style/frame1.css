@@ -3,6 +3,7 @@
 }
 
 .MainSection {
+  background-image: url("../img/frame1-bg.jpg");
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -22,7 +23,7 @@
 .MainIcon {
   color: #6200ee;
   margin-top: 15%;
-  font-size: 3sa0px;
+  font-size: 3px;
 }
 
 .MainTitle {
@@ -74,14 +75,14 @@
   margin-bottom: 2%;
 }
 
-@media (max-width: 480px) {
-  .MainSection {
-    background-image: url("../img/frame1-bg2.jpeg");
+@media screen and (max-width: 480px) {
+  .MainHearts {
+    padding-top: 50%;
   }
 }
 
-@media (min-width: 500px) and (max-width: 1800px) {
-  .MainSection {
-    background-image: url("../img/frame1-bg.jpg");
+@media (min-width: 481px) {
+  .MainHearts {
+    padding-top: 0;
   }
 }
