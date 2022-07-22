@@ -1,0 +1,211 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.LoginSection {
+  margin-top: 4%;
+}
+
+.LoginHeader {
+  font-family: "Sakkal Majalla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
+}
+
+.LoginWarning {
+  font-family: "Sakkal Majalla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  color: #6b5e5e;
+}
+
+.LoginTerms {
+  color: #036bb9;
+}
+
+.LoginLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.LoginLink {
+  text-decoration: underline #3e3939;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: #036bb9;
+  margin-right: 4%;
+}
+
+.RegisterLink {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: #a6a6a6;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select {
+  padding: 5px;
+  margin-bottom: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(81, 75, 75);
+}
+
+.FormFooter {
+  font-size: 15px;
+  font-family: Helvetica;
+  justify-content: space-between;
+}
+
+.checkbox {
+  margin-top: 5%;
+}
+
+.checkbox input {
+  background: #fafafa;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.LoginForm {
+  padding: 0 35%;
+  font-family: "Helvetica";
+}
+
+.mainLoginInput {
+  height: 40px;
+  padding: 0px;
+  font-size: 30px;
+  margin: 5px 0;
+}
+
+.mainLoginInput::-webkit-input-placeholder {
+  font-family: FontAwesome, Helvetica;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: #a6a6a6;
+}
+
+.ForgotPass {
+  text-align: right;
+  color: #0386d0;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background: rgba(255, 136, 84, 0.98);
+  font-family: Helvetica;
+  color: #ffffff;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+  font-size: 20px;
+}
+
+.OptionHeader {
+  color: #747070;
+  font-family: Helvetica;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 6px 14px 3px #000000;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier (0.68, -0.55, 0.2 65, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .google:hover,
+.wrapper .google:hover .tooltip,
+.wrapper .google:hover .tooltip::before {
+  background-color: #3cba54;
+  color: #ffffff;
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #4e71ba;
+  color: #ffffff;
+}
+
+.wrapper .pinterest:hover,
+.wrapper .pinterest:hover .tooltip,
+.wrapper .pinterest:hover .tooltip::before {
+  background-color: #e60023;
+  color: #ffffff;
+}
