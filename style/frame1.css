@@ -102,3 +102,7 @@ button::after {
 .MindField-logo {
   margin-top: 6%;
 }
+
+img {
+  width: 400px;
+}
