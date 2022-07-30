@@ -7,7 +7,7 @@
 }
 
 .MainSection {
-  background-image: url("../img/frame1-bg.jpg");
+  background-image: url("../img/newBG.jpg");
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -15,13 +15,20 @@
 }
 
 .MainText {
-  padding-top: 10%;
+  padding: 20px;
   font-family: Helvetica;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 24px;
   letter-spacing: 0.15px;
+}
+
+.MainPart {
+  max-width: 50%;
+  margin: 0 auto;
+  border-radius: 6%;
+  margin-top: 15%;
 }
 
 .MainIcon {
@@ -47,6 +54,7 @@
   display: flex;
   justify-content: center;
   margin-top: 2%;
+  padding: 20px;
 }
 
 .Button {
